@@ -1,0 +1,18 @@
+<Context>
+   <Resource name="jdbc/MySQLDB" 
+   auth="Container"
+   type="javax.sql.DataSource" 
+   
+   username="ipc21bfmfc" 
+   password="ipc21bfmfc"
+   driverClassName="com.mysql.cj.jdbc.Driver"
+   url="jdbc:mysql://118.131.179.138/ipc21bfmfc"
+   
+   factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"   
+  
+   maxActive="500" 
+   maxWait="1000"
+   maxIdle="100"/>  
+</Context>
+   
+
